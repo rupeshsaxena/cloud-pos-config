@@ -1,0 +1,65 @@
+{   
+   "endpoints": {
+        "config": [
+            "config/customer",
+            "config/restuarant",
+            "config/menu"
+        ],
+        "pos_register": [
+            "pos/register/open",
+            "pos/register/close",
+            "pos/register/search?type=:type",
+            "pos/register/payment",
+            "pos/register/customer"
+        ],
+        "pos_inventory": [
+            "pos/inventory/sales",
+            "pos/inventory/purchase",
+            "pos/inventory/vendor",
+            "pos/inventory/reports"
+        ]
+    },
+    "restaurant_details":{
+        "full_name": "",
+        "address": "",
+        "website": "",
+        "logos": [
+            {
+                "path":"",
+                "type": "",
+                "size": {
+                    "width": 0,
+                    "height": 0,
+                    "aspect_ratio": 0
+                }
+            }
+        ],
+        "telephone": "",
+        "owner_name": ""
+    },
+    "settings": {
+        "taxation": {
+            "gst": {
+                "value": "0.18"
+            },
+            "sc": {
+                "value": "0.05"
+            },
+            "vat": {
+                "value": "0.15"
+            }
+        },
+        "service_provider": {
+            "type": [
+                "delivery",
+                "fine_dine"
+            ]
+        },
+        "online_service": {
+            "type": [
+                "zomato",
+                "swiggy"
+            ]
+        }
+   }
+}
