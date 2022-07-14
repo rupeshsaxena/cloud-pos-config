@@ -44,7 +44,7 @@
             {
                 "name": "gst",
                 "full_name": "GST",
-                "value": 0.15
+                "value": 0.18
             },
             {
                 "name": "sc",
@@ -54,7 +54,7 @@
             {
                 "name": "vat",
                 "full_name": "VAT",
-                "value": 0.15
+                "value": 0.25
             }
         ],
         "service_provider": [
