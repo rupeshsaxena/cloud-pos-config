@@ -1,4 +1,6 @@
-
+spring:
+  application:
+    name: pos-menu-config
 eureka:
   instance:
     prefer-ip-address: true
