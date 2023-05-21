@@ -9,3 +9,7 @@ eureka:
     register-with-eureka: true
     service-url:
       defaultZone: http://localhost:8761/eureka
+pos:
+  app:
+    config:
+      dev: https://github.com/rupeshsaxena/cloud-pos-config/blob/master/config-dev.json
