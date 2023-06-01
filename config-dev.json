@@ -20,9 +20,9 @@
         ]
     },
     "restaurant_details":{
-        "full_name": "",
-        "address": "",
-        "website": "",
+        "full_name": "ABC Restaurant",
+        "address": "H-8/43 M-Block Greater Kailash - 2, New Delhi",
+        "website": "http://example.com",
         "logos": [
             {
                 "path":"",
@@ -34,8 +34,8 @@
                 }
             }
         ],
-        "telephone": "",
-        "owner_name": ""
+        "telephone": "+91-9888787348",
+        "owner_name": "Mr. Arush Mehra"
     },
     "settings": {
         "taxation": {
